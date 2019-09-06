@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D331005F2321237300A565D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331005E2321237300A565D0 /* AppDelegate.swift */; };
+		D33100642321237300A565D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33100622321237300A565D0 /* Main.storyboard */; };
+		D33100662321237500A565D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33100652321237500A565D0 /* Assets.xcassets */; };
+		D33100692321237500A565D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33100672321237500A565D0 /* LaunchScreen.storyboard */; };
+		D33100742321237500A565D0 /* LifeEventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33100732321237500A565D0 /* LifeEventsTests.swift */; };
+		D331007F2321237500A565D0 /* LifeEventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331007E2321237500A565D0 /* LifeEventsUITests.swift */; };
+		D331008D23212C2600A565D0 /* LifeEventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331008C23212C2600A565D0 /* LifeEventsTableViewController.swift */; };
+		D331008F2321DB6700A565D0 /* LifeEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D331008E2321DB6700A565D0 /* LifeEventCell.swift */; };
+		E38BD5C21A92DFC1A83C07D1 /* Pods_LifeEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 738E99AE1E6D981011E1209C /* Pods_LifeEvents.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D33100702321237500A565D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33100532321237300A565D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D331005A2321237300A565D0;
+			remoteInfo = LifeEvents;
+		};
+		D331007B2321237500A565D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33100532321237300A565D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D331005A2321237300A565D0;
+			remoteInfo = LifeEvents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		359C621673E1EDD846ABA550 /* Pods-LifeEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeEvents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LifeEvents/Pods-LifeEvents.debug.xcconfig"; sourceTree = "<group>"; };
+		50782AE209E4EC9436318949 /* Pods-LifeEvents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LifeEvents.release.xcconfig"; path = "Pods/Target Support Files/Pods-LifeEvents/Pods-LifeEvents.release.xcconfig"; sourceTree = "<group>"; };
+		738E99AE1E6D981011E1209C /* Pods_LifeEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D331005B2321237300A565D0 /* LifeEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D331005E2321237300A565D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D33100632321237300A565D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D33100652321237500A565D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D33100682321237500A565D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D331006A2321237500A565D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D331006F2321237500A565D0 /* LifeEventsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeEventsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33100732321237500A565D0 /* LifeEventsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeEventsTests.swift; sourceTree = "<group>"; };
+		D33100752321237500A565D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D331007A2321237500A565D0 /* LifeEventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeEventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D331007E2321237500A565D0 /* LifeEventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeEventsUITests.swift; sourceTree = "<group>"; };
+		D33100802321237500A565D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D331008C23212C2600A565D0 /* LifeEventsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeEventsTableViewController.swift; sourceTree = "<group>"; };
+		D331008E2321DB6700A565D0 /* LifeEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeEventCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D33100582321237300A565D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38BD5C21A92DFC1A83C07D1 /* Pods_LifeEvents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D331006C2321237500A565D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33100772321237500A565D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCFC5B64A223C1DB6C2930F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				738E99AE1E6D981011E1209C /* Pods_LifeEvents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D33100522321237300A565D0 = {
+			isa = PBXGroup;
+			children = (
+				D331005D2321237300A565D0 /* LifeEvents */,
+				D33100722321237500A565D0 /* LifeEventsTests */,
+				D331007D2321237500A565D0 /* LifeEventsUITests */,
+				D331005C2321237300A565D0 /* Products */,
+				FCB81E092F804CB7C2C1CFD7 /* Pods */,
+				4BCFC5B64A223C1DB6C2930F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D331005C2321237300A565D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D331005B2321237300A565D0 /* LifeEvents.app */,
+				D331006F2321237500A565D0 /* LifeEventsTests.xctest */,
+				D331007A2321237500A565D0 /* LifeEventsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D331005D2321237300A565D0 /* LifeEvents */ = {
+			isa = PBXGroup;
+			children = (
+				D331005E2321237300A565D0 /* AppDelegate.swift */,
+				D33100622321237300A565D0 /* Main.storyboard */,
+				D33100652321237500A565D0 /* Assets.xcassets */,
+				D33100672321237500A565D0 /* LaunchScreen.storyboard */,
+				D331006A2321237500A565D0 /* Info.plist */,
+				D331008C23212C2600A565D0 /* LifeEventsTableViewController.swift */,
+				D331008E2321DB6700A565D0 /* LifeEventCell.swift */,
+			);
+			path = LifeEvents;
+			sourceTree = "<group>";
+		};
+		D33100722321237500A565D0 /* LifeEventsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D33100732321237500A565D0 /* LifeEventsTests.swift */,
+				D33100752321237500A565D0 /* Info.plist */,
+			);
+			path = LifeEventsTests;
+			sourceTree = "<group>";
+		};
+		D331007D2321237500A565D0 /* LifeEventsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D331007E2321237500A565D0 /* LifeEventsUITests.swift */,
+				D33100802321237500A565D0 /* Info.plist */,
+			);
+			path = LifeEventsUITests;
+			sourceTree = "<group>";
+		};
+		FCB81E092F804CB7C2C1CFD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				359C621673E1EDD846ABA550 /* Pods-LifeEvents.debug.xcconfig */,
+				50782AE209E4EC9436318949 /* Pods-LifeEvents.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D331005A2321237300A565D0 /* LifeEvents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33100832321237500A565D0 /* Build configuration list for PBXNativeTarget "LifeEvents" */;
+			buildPhases = (
+				0ED030CB53EC121B4A12E332 /* [CP] Check Pods Manifest.lock */,
+				D33100572321237300A565D0 /* Sources */,
+				D33100582321237300A565D0 /* Frameworks */,
+				D33100592321237300A565D0 /* Resources */,
+				5A5177E10EF2C08EA16D60E3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeEvents;
+			productName = LifeEvents;
+			productReference = D331005B2321237300A565D0 /* LifeEvents.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D331006E2321237500A565D0 /* LifeEventsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33100862321237500A565D0 /* Build configuration list for PBXNativeTarget "LifeEventsTests" */;
+			buildPhases = (
+				D331006B2321237500A565D0 /* Sources */,
+				D331006C2321237500A565D0 /* Frameworks */,
+				D331006D2321237500A565D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33100712321237500A565D0 /* PBXTargetDependency */,
+			);
+			name = LifeEventsTests;
+			productName = LifeEventsTests;
+			productReference = D331006F2321237500A565D0 /* LifeEventsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D33100792321237500A565D0 /* LifeEventsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33100892321237500A565D0 /* Build configuration list for PBXNativeTarget "LifeEventsUITests" */;
+			buildPhases = (
+				D33100762321237500A565D0 /* Sources */,
+				D33100772321237500A565D0 /* Frameworks */,
+				D33100782321237500A565D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D331007C2321237500A565D0 /* PBXTargetDependency */,
+			);
+			name = LifeEventsUITests;
+			productName = LifeEventsUITests;
+			productReference = D331007A2321237500A565D0 /* LifeEventsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D33100532321237300A565D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Raunak Poddar";
+				TargetAttributes = {
+					D331005A2321237300A565D0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					D331006E2321237500A565D0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D331005A2321237300A565D0;
+					};
+					D33100792321237500A565D0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = D331005A2321237300A565D0;
+					};
+				};
+			};
+			buildConfigurationList = D33100562321237300A565D0 /* Build configuration list for PBXProject "LifeEvents" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D33100522321237300A565D0;
+			productRefGroup = D331005C2321237300A565D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D331005A2321237300A565D0 /* LifeEvents */,
+				D331006E2321237500A565D0 /* LifeEventsTests */,
+				D33100792321237500A565D0 /* LifeEventsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D33100592321237300A565D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33100692321237500A565D0 /* LaunchScreen.storyboard in Resources */,
+				D33100662321237500A565D0 /* Assets.xcassets in Resources */,
+				D33100642321237300A565D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D331006D2321237500A565D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33100782321237500A565D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ED030CB53EC121B4A12E332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LifeEvents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A5177E10EF2C08EA16D60E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LifeEvents/Pods-LifeEvents-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RPUpdatingLabelFramework/RPUpdatingLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RPUpdatingLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LifeEvents/Pods-LifeEvents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D33100572321237300A565D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D331008F2321DB6700A565D0 /* LifeEventCell.swift in Sources */,
+				D331008D23212C2600A565D0 /* LifeEventsTableViewController.swift in Sources */,
+				D331005F2321237300A565D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D331006B2321237500A565D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33100742321237500A565D0 /* LifeEventsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33100762321237500A565D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D331007F2321237500A565D0 /* LifeEventsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D33100712321237500A565D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D331005A2321237300A565D0 /* LifeEvents */;
+			targetProxy = D33100702321237500A565D0 /* PBXContainerItemProxy */;
+		};
+		D331007C2321237500A565D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D331005A2321237300A565D0 /* LifeEvents */;
+			targetProxy = D331007B2321237500A565D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D33100622321237300A565D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33100632321237300A565D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D33100672321237500A565D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33100682321237500A565D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D33100812321237500A565D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D33100822321237500A565D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D33100842321237500A565D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359C621673E1EDD846ABA550 /* Pods-LifeEvents.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J26S9TLN7;
+				INFOPLIST_FILE = LifeEvents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.v5systems.LifeEvents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D33100852321237500A565D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50782AE209E4EC9436318949 /* Pods-LifeEvents.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J26S9TLN7;
+				INFOPLIST_FILE = LifeEvents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.v5systems.LifeEvents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D33100872321237500A565D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J26S9TLN7;
+				INFOPLIST_FILE = LifeEventsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.v5systems.LifeEventsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeEvents.app/LifeEvents";
+			};
+			name = Debug;
+		};
+		D33100882321237500A565D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J26S9TLN7;
+				INFOPLIST_FILE = LifeEventsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.v5systems.LifeEventsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LifeEvents.app/LifeEvents";
+			};
+			name = Release;
+		};
+		D331008A2321237500A565D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J26S9TLN7;
+				INFOPLIST_FILE = LifeEventsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.v5systems.LifeEventsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeEvents;
+			};
+			name = Debug;
+		};
+		D331008B2321237500A565D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J26S9TLN7;
+				INFOPLIST_FILE = LifeEventsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = us.v5systems.LifeEventsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LifeEvents;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33100562321237300A565D0 /* Build configuration list for PBXProject "LifeEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33100812321237500A565D0 /* Debug */,
+				D33100822321237500A565D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33100832321237500A565D0 /* Build configuration list for PBXNativeTarget "LifeEvents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33100842321237500A565D0 /* Debug */,
+				D33100852321237500A565D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33100862321237500A565D0 /* Build configuration list for PBXNativeTarget "LifeEventsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33100872321237500A565D0 /* Debug */,
+				D33100882321237500A565D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33100892321237500A565D0 /* Build configuration list for PBXNativeTarget "LifeEventsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D331008A2321237500A565D0 /* Debug */,
+				D331008B2321237500A565D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D33100532321237300A565D0 /* Project object */;
+}

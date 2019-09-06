@@ -1,0 +1,6 @@
+framework module RPUpdatingLabel {
+  umbrella header "RPUpdatingLabelFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

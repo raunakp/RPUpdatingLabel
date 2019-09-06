@@ -1,0 +1,6 @@
+framework module Pods_LifeEvents {
+  umbrella header "Pods-LifeEvents-umbrella.h"
+
+  export *
+  module * { export * }
+}

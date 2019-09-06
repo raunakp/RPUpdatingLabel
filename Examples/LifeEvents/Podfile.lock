@@ -1,0 +1,16 @@
+PODS:
+  - RPUpdatingLabelFramework (1.0)
+
+DEPENDENCIES:
+  - RPUpdatingLabelFramework (from `../..`)
+
+EXTERNAL SOURCES:
+  RPUpdatingLabelFramework:
+    :path: "../.."
+
+SPEC CHECKSUMS:
+  RPUpdatingLabelFramework: 73395172ead295aef3852b64e72d3e8d324c29bb
+
+PODFILE CHECKSUM: a0f087808127d97f227a7b378519fba7ea505b38
+
+COCOAPODS: 1.5.3

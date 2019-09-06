@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+
+target 'LifeEvents' do
+  use_frameworks!
+  pod 'RPUpdatingLabelFramework', :path => '../..'
+
+end

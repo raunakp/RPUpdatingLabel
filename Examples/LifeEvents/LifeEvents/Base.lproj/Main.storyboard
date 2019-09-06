@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gGG-lC-LA3">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Life Events-->
+        <scene sceneID="Xaf-pX-edC">
+            <objects>
+                <tableViewController title="Life Events" id="gGG-lC-LA3" customClass="LifeEventsTableViewController" customModule="LifeEvents" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="C7p-iC-Q9L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="LifeEventCell" rowHeight="90" id="ITJ-cu-VPY" customClass="LifeEventCell" customModule="LifeEvents" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ITJ-cu-VPY" id="aWi-MG-Ia8">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019-09-06 05:43 a.m. GMT+05:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6g2-GX-hEa">
+                                            <rect key="frame" x="20" y="11" width="374" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 mins ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8nq-kn-Tru" customClass="RPUpdatingLabel" customModule="RPUpdatingLabel">
+                                            <rect key="frame" x="20" y="48" width="374" height="15"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="8nq-kn-Tru" secondAttribute="trailing" constant="20" id="BkD-yI-U0n"/>
+                                        <constraint firstAttribute="bottom" secondItem="8nq-kn-Tru" secondAttribute="bottom" constant="26.5" id="IBs-7T-5uI"/>
+                                        <constraint firstItem="6g2-GX-hEa" firstAttribute="top" secondItem="aWi-MG-Ia8" secondAttribute="top" constant="11" id="Q4t-gA-Uhs"/>
+                                        <constraint firstAttribute="trailing" secondItem="6g2-GX-hEa" secondAttribute="trailing" constant="20" id="ZW2-iu-KS8"/>
+                                        <constraint firstItem="6g2-GX-hEa" firstAttribute="leading" secondItem="aWi-MG-Ia8" secondAttribute="leading" constant="20" id="a3J-xb-7NP"/>
+                                        <constraint firstItem="8nq-kn-Tru" firstAttribute="top" secondItem="6g2-GX-hEa" secondAttribute="bottom" constant="16" id="dsg-V6-gH3"/>
+                                        <constraint firstItem="8nq-kn-Tru" firstAttribute="leading" secondItem="aWi-MG-Ia8" secondAttribute="leading" constant="20" id="rOj-p6-HCw"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dateLabel" destination="6g2-GX-hEa" id="Agy-OS-McP"/>
+                                    <outlet property="elapsedTimeLabel" destination="8nq-kn-Tru" id="iMW-dL-nQ8"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="gGG-lC-LA3" id="kUP-Vf-5IJ"/>
+                            <outlet property="delegate" destination="gGG-lC-LA3" id="BAr-ef-6iy"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vga-es-XmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="592.75362318840587" y="-167.41071428571428"/>
+        </scene>
+    </scenes>
+</document>
