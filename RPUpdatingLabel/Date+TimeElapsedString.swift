@@ -9,8 +9,6 @@
 import Foundation
 
 extension Date {
-    
-    
     private static func elapsedString(forComponent component: Int,
                                       subComponent: Int,
                                       componentSingular: String,
@@ -20,7 +18,7 @@ extension Date {
         var str: String?
         if component > 1 && subComponent > 1 {
             str = "\(component) \(componentPlural) \(subComponent) \(subComponentPlural)"
-        } else if component > 1  && subComponent == 1 {
+        } else if component > 1 && subComponent == 1 {
             str = "\(component) \(componentPlural) \(subComponent) \(subComponentSingular)"
         } else if component > 1 {
             str = "\(component) \(componentPlural)"
@@ -29,14 +27,12 @@ extension Date {
         }
         return str
     }
-    
-    
-    func timeElapsedString(sinceDate since: Date?, pastSuffix: String, futureSuffix: String) -> String {
-        
+
+    func timeElapsedString(sinceDate since: Date?, pastSuffix: String = "ago", futureSuffix: String = "to go") -> String {
         guard let since = since else {
             return "??"
         }
-        
+
         var dcs: DateComponents
         var suffix: String
         if since < self {
@@ -46,23 +42,22 @@ extension Date {
             suffix = futureSuffix
             dcs = Calendar.current.dateComponents([.year, .month, .weekOfMonth, .day, .hour, .minute, .second], from: self, to: since)
         }
-        
+
         var str: String?
         let year = dcs.year!
         let month = dcs.month!
-        
+
         str = Date.elapsedString(forComponent: year,
                                  subComponent: month,
                                  componentSingular: "year",
                                  componentPlural: "years",
                                  subComponentSingular: "month",
                                  subComponentPlural: "months")
-        
-        
+
         if let str = str {
             return "\(str) \(suffix)"
         }
-        
+
         let week = dcs.weekOfMonth!
         str = Date.elapsedString(forComponent: month,
                                  subComponent: week,
@@ -73,7 +68,7 @@ extension Date {
         if let str = str {
             return "\(str) \(suffix)"
         }
-        
+
         let day = dcs.day!
         str = Date.elapsedString(forComponent: week,
                                  subComponent: day,
@@ -84,7 +79,7 @@ extension Date {
         if let str = str {
             return "\(str) \(suffix)"
         }
-        
+
         let hour = dcs.hour!
         str = Date.elapsedString(forComponent: day,
                                  subComponent: hour,
@@ -95,7 +90,7 @@ extension Date {
         if let str = str {
             return "\(str) \(suffix)"
         }
-        
+
         let min = dcs.minute!
         str = Date.elapsedString(forComponent: hour,
                                  subComponent: min,
@@ -106,7 +101,7 @@ extension Date {
         if let str = str {
             return "\(str) \(suffix)"
         }
-        
+
         let sec = dcs.second!
         str = Date.elapsedString(forComponent: min,
                                  subComponent: sec,
@@ -117,7 +112,7 @@ extension Date {
         if let str = str {
             return "\(str) \(suffix)"
         }
-        
+
         return "\(sec) seconds \(suffix)"
     }
 }

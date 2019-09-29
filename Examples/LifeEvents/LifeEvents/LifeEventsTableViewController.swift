@@ -81,7 +81,7 @@ class LifeEventsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "LifeEventCell") as! LifeEventCell
         cell.dateLabel.text = DateFormatter.mediumDateTimeStyleWithLocalTimeZone.string(from: events[indexPath.row])
-        cell.elapsedTimeLabel.eventTime = events[indexPath.row]
+        cell.elapsedTimeLabel.update(eventTime: events[indexPath.row], notificationName: RPUpdatingLabel.ClockUpdateNotification, dateKey:  RPUpdatingLabel.NotificationUserInfoDateKey, object: self)
         return cell
     }
 
