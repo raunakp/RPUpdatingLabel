@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,22 +29,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0736461D0792741D8ED0138B227A7ABE /* RPUpdatingLabelFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RPUpdatingLabelFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0736461D0792741D8ED0138B227A7ABE /* RPUpdatingLabelFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RPUpdatingLabelFramework.podspec; sourceTree = "<group>"; };
 		27E1092CA4C63E597FF5D24017C3E4EB /* RPUpdatingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RPUpdatingLabel.swift; path = RPUpdatingLabel/RPUpdatingLabel.swift; sourceTree = "<group>"; };
 		3013A229E2262C15CD22660195A1166B /* RPUpdatingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RPUpdatingLabel.h; path = RPUpdatingLabel/RPUpdatingLabel.h; sourceTree = "<group>"; };
 		3A7AF4E0C1D9C9B14C7207B5E95595B8 /* Pods-LifeEvents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifeEvents.release.xcconfig"; sourceTree = "<group>"; };
-		3E954F3884CB2926BC64005CD7E1D841 /* Pods_LifeEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LifeEvents.framework; path = "Pods-LifeEvents.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E954F3884CB2926BC64005CD7E1D841 /* Pods_LifeEvents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LifeEvents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FB87343E45A1DA2F5F27838C63A027A /* Pods-LifeEvents-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LifeEvents-resources.sh"; sourceTree = "<group>"; };
 		6E0493EAD273A0173E7D2585FD7A6281 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E37A4F8A69A8163F0FD77272F76E0E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6E37A4F8A69A8163F0FD77272F76E0E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		728ED9CF806DF7AD9C9EE8F8C84AB856 /* Pods-LifeEvents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LifeEvents.debug.xcconfig"; sourceTree = "<group>"; };
-		7E3B07B21C2BB4B5E8F9C0C65F577497 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.md; sourceTree = "<group>"; };
+		7E3B07B21C2BB4B5E8F9C0C65F577497 /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		7F68460229A87501ED8C0EA701687A6D /* Date+TimeElapsedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+TimeElapsedString.swift"; path = "RPUpdatingLabel/Date+TimeElapsedString.swift"; sourceTree = "<group>"; };
 		807B6DFB772459482E5789D51AEB2F7E /* Pods-LifeEvents-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LifeEvents-acknowledgements.plist"; sourceTree = "<group>"; };
 		84C01FA5D11EC45C29907A3C24CED9A2 /* Pods-LifeEvents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LifeEvents.modulemap"; sourceTree = "<group>"; };
 		915B5DD2D6EB81B3BA2F96D7E8A1BDD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D5D48DD243BB4295C3250EE8CBCBB05 /* RPUpdatingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RPUpdatingLabel.framework; path = RPUpdatingLabelFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D5D48DD243BB4295C3250EE8CBCBB05 /* RPUpdatingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RPUpdatingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAF523AE4C65A34ACF698720740EA30 /* Pods-LifeEvents-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LifeEvents-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C87470E2626BE7CF812143BCE8BB09B5 /* RPUpdatingLabelFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RPUpdatingLabelFramework.xcconfig; sourceTree = "<group>"; };
 		CC6FA9D4F866C74A9E5FA5D0F688231D /* Pods-LifeEvents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LifeEvents-dummy.m"; sourceTree = "<group>"; };
@@ -258,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -336,11 +337,7 @@
 				INFOPLIST_FILE = "Target Support Files/RPUpdatingLabelFramework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RPUpdatingLabelFramework/RPUpdatingLabelFramework.modulemap";
 				PRODUCT_MODULE_NAME = RPUpdatingLabel;
 				PRODUCT_NAME = RPUpdatingLabel;
@@ -371,11 +368,7 @@
 				INFOPLIST_FILE = "Target Support Files/RPUpdatingLabelFramework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RPUpdatingLabelFramework/RPUpdatingLabelFramework.modulemap";
 				PRODUCT_MODULE_NAME = RPUpdatingLabel;
 				PRODUCT_NAME = RPUpdatingLabel;
@@ -445,8 +438,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -469,11 +461,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LifeEvents/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LifeEvents/Pods-LifeEvents.modulemap";
 				OTHER_LDFLAGS = "";
@@ -573,11 +561,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LifeEvents/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LifeEvents/Pods-LifeEvents.modulemap";
 				OTHER_LDFLAGS = "";
