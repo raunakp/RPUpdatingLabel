@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RPUpdatingLabelFramework"
-  s.version      = "1.16"
+  s.version      = "1.17"
   s.module_name  = "RPUpdatingLabel"
   s.summary      = "Auto updating label showing elapsed time"
   s.description  = <<-DESC
